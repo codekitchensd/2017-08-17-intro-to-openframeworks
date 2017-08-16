@@ -51,6 +51,12 @@ Unlike processing, you can't simply hit the play button. To build and run an ope
 
 [Take a tour through XCode w/building]
 
+## Inspiration
+
+[ConnectedWorlds by Design I/O](http://design-io.com/projects/ConnectedWorlds/)
+[Drawing experiments by Kind](https://thenextweb.com/dd/2012/05/04/amazing-video-drawing-experiments-by-kynd-use-openframeworks-to-create-art/#.tnw_2rnWBh5z)
+[CSIS Data Chandelier by Sosolimited](https://www.sosolimited.com/work/csis-data-chandelier/)
+[How Open Source is Disrupting Visual Art](https://creators.vice.com/en_us/article/wnzm4q/how-open-source-is-disrupting-visual-art)
 
 
 
