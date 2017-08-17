@@ -5,7 +5,7 @@
 
 ## Why use openFrameworks?
 
-One of the biggest advantages of openFrameworks is its extremely active community. Because it is opensource, many people contribute to the openFrameworks code base. There are also many people contributing libraries (called 'addons' in the oF community) that extend oF's core capabilities. All addons are catalogued on ofxAddons.com](http://ofxaddons.com/categories) and cover a huge variety of topics. Some addons are completely new code, while others wrap other useful libraries. Here's a sampling of the most popular:
+One of the biggest advantages of openFrameworks is its extremely active community. Because it is opensource, many people contribute to the openFrameworks code base. There are also many people contributing libraries (called 'addons') that extend oF's core capabilities. All addons are catalogued on [ofxAddons.com](http://ofxaddons.com/categories) and cover a huge variety of topics. Some addons are completely new code, while others wrap other useful libraries. Here's a sampling of some of the most popular libraries:
 
 * [ofxFaceTracker](https://github.com/kylemcdonald/ofxFaceTracker) Requires ofxCv. Detects faces and tracks the positions, orientations, and scales of key facial features (eyes, nostrils, jaw, etc.)
 * [ofxDarknet](https://github.com/mrzl/ofxDarknet) A neural network addon for openFrameworks. Comes with pre-trained models and samples to try out fun neural network techniques.
@@ -17,8 +17,7 @@ Caveats: Not all addons are maintained, and some may become incompatible with la
 
 ### openFrameworks vs. Processing 
 
-For many of our workshops, we've been using tools like p5.js, Processing, and Javascript. OpenFrameworks is a C++-based library that can be more challenging to adapt to. That said, it can be well suited for more complex projects that require performance and speed. It's also great if you want to leverage the existing libraries.
-
+For many of our workshops, we've been using tools like p5.js, Processing, and Javascript. OpenFrameworks is a C++-based library that can be more challenging to master. That said, it can be well suited for more complex projects that require performance and speed. It's also great if you want to leverage the existing libraries. OpenFrameworks is used by many professional-level creative coding studios for permanent installations.
 
 Processing (or p5.js) is excellent for quick software prototypes. It's easy to throw some code in, experiment, and see the result. Processing is not usually suited for professional-level installations or more permanent pieces. Processing can be much slower than openFrameworks, depending on what you're doing. With p5.js, you can easily publish projects to the web.
 
@@ -51,12 +50,30 @@ Unlike processing, you can't simply hit the play button. To build and run an ope
 
 [Take a tour through XCode w/building]
 
+## Learning
+
+## Basic Graphics Primitives
+
+## 
+
+## Take a spin through oF examples!
+
+There are many examples included with openFrameworks. 
+
+## Challenge
+
 ## Inspiration
 
-[ConnectedWorlds by Design I/O](http://design-io.com/projects/ConnectedWorlds/)
-[Drawing experiments by Kind](https://thenextweb.com/dd/2012/05/04/amazing-video-drawing-experiments-by-kynd-use-openframeworks-to-create-art/#.tnw_2rnWBh5z)
-[CSIS Data Chandelier by Sosolimited](https://www.sosolimited.com/work/csis-data-chandelier/)
-[How Open Source is Disrupting Visual Art](https://creators.vice.com/en_us/article/wnzm4q/how-open-source-is-disrupting-visual-art)
+### Cool Projects 
+* [ConnectedWorlds by Design I/O](http://design-io.com/projects/ConnectedWorlds/)
+* [Drawing experiments by Kind](https://thenextweb.com/dd/2012/05/04/amazing-video-drawing-experiments-by-kynd-use-openframeworks-to-create-art/#.tnw_2rnWBh5z)
+* [CSIS Data Chandelier by Sosolimited](https://www.sosolimited.com/work/csis-data-chandelier/)
+
+### Resources 
+* [ofxAddons](http://ofxaddons.com/categories)
+
+### Articles
+* [How Open Source is Disrupting Visual Art](https://creators.vice.com/en_us/article/wnzm4q/how-open-source-is-disrupting-visual-art)
 
 
 
