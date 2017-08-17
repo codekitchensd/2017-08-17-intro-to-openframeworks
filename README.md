@@ -52,15 +52,32 @@ Unlike processing, you can't simply hit the play button. To build and run an ope
 
 ## Learning
 
-## Basic Graphics Primitives
+AKA a very brief overview of core oF functionality.
 
-## 
+#### Basic Graphics Primitives
 
-## Take a spin through oF examples!
+#### Display Images
 
-There are many examples included with openFrameworks. 
+#### Display Video
+
+#### Working in 3D
+
+## Example Apps
+
+There are many examples included with openFrameworks. We've picked out a few interesting ones to go over. 
+
+* SoundPlayer FFT Example 
+* asciiVideo Example
+* multiTextureShader Example
+* opencvExample
+* noiseField2D Example
+* particles Example
+
+Spend some time looking through the other examples (at your leisure).
 
 ## Challenge
+
+Select one of the examples we've gone over and modify it in any way you choose. This could be as simple as adding basic mouse input, or as complex as writing custom noise functions to modify a noise field. Pick something you enjoy!
 
 ## Inspiration
 
