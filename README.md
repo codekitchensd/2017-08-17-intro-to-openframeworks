@@ -51,7 +51,7 @@ Unlike processing, you can't simply hit the play button. To build and run an ope
 
 ## Learning
 
-AKA a very brief overview of core oF functionality.
+AKA a very brief overview of core oF functionality. Most of these are covered on the oF's website, so we'll just show a few highlights.
 
 #### [2D Graphics, Images, & Typography](http://openframeworks.cc/documentation/graphics/)
 
@@ -64,28 +64,55 @@ Assets are stored within App Folder/bin.
 Declare an image using the ofImage object.
 
 ```
-ofImage _myImage;
+ofImage myImage;
 ```
 
 then, load your image file:
 
 ```
-_image.load("images/puppy.jpg"); 
+image.load("images/puppy.jpg"); 
 ```
 
 then, draw it in the draw() function. It takes in parameters for the x and y position.
 
 ```
-_image.draw(300,0); 
+image.draw(300,0); 
 ```
 
 You can also specify the image size:
 
 ```
-_image.draw(300,0, 100, 100); 
+image.draw(300,0, 100, 100); 
 ```
 
 #### [Working with Video](http://openframeworks.cc/documentation/video/)
+
+The oF video object is called 'ofVideoPlayer'. Declare and play a video like so:
+
+```
+// Call these functions once to initialize a video object
+ofVideoPlayer testMovie;
+
+// Now, load the video file
+testMovie.load("testmovie.mov");
+
+// Start playing the movie
+testMovie.play();
+```
+
+In the update function, we need to call update on our video object. This tells the video player to grab the next frame of video:
+
+```
+testMovie.update();
+```
+
+In the draw function, draw the movie:
+
+
+```
+testMovie.draw(0, 0, 400, 300);
+```
+
 
 #### [Working in 3D](http://openframeworks.cc/documentation/)
 
@@ -115,6 +142,9 @@ Select one of the examples we've gone over and modify it in any way you choose. 
 
 ### Resources 
 * [ofxAddons](http://ofxaddons.com/categories)
+* [oF Tutorials](http://openframeworks.cc/learning/)
+* [oF Documentation of core libraries](http://openframeworks.cc/documentation/)
+
 
 ### Articles
 * [How Open Source is Disrupting Visual Art](https://creators.vice.com/en_us/article/wnzm4q/how-open-source-is-disrupting-visual-art)
