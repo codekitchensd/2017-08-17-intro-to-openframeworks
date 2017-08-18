@@ -33,8 +33,7 @@ For this workshop, download a zip of the latest [openFrameworks release](http://
 
 After downloading the openFrameworks release, navigate to openFrameworks/apps and clone or download this repository. To clone from a terminal, use the following commands:
 
-```javascript
-cd of_v0.9.8_osx_release/apps
+```cd of_v0.9.8_osx_release/apps
 git clone https://github.com/codekitchensd/2017-08-17-intro-to-openframeworks.git
 ```
 
@@ -54,13 +53,41 @@ Unlike processing, you can't simply hit the play button. To build and run an ope
 
 AKA a very brief overview of core oF functionality.
 
-#### Basic Graphics Primitives
+#### [2D Graphics, Images, & Typography](http://openframeworks.cc/documentation/graphics/)
 
-#### Display Images
+##### Assets
 
-#### Display Video
+Assets are stored within App Folder/bin. 
 
-#### Working in 3D
+##### Displaying Images
+
+Declare an image using the ofImage object.
+
+```
+ofImage _myImage;
+```
+
+then, load your image file:
+
+```
+_image.load("images/puppy.jpg"); 
+```
+
+then, draw it in the draw() function. It takes in parameters for the x and y position.
+
+```
+_image.draw(300,0); 
+```
+
+You can also specify the image size:
+
+```
+_image.draw(300,0, 100, 100); 
+```
+
+#### [Working with Video](http://openframeworks.cc/documentation/video/)
+
+#### [Working in 3D](http://openframeworks.cc/documentation/)
 
 ## Example Apps
 
