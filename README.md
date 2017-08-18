@@ -21,7 +21,7 @@ For many of our workshops, we've been using tools like p5.js, Processing, and Ja
 
 Processing (or p5.js) is excellent for quick software prototypes. It's easy to throw some code in, experiment, and see the result. Processing is not usually suited for professional-level installations or more permanent pieces. Processing can be much slower than openFrameworks, depending on what you're doing. With p5.js, you can easily publish projects to the web.
 
-openFrameworks has a very strong community of contributors. 
+Like Processing, openFrameworks has a setup and a draw function. The setup function will be called exactly once, at the beginning of you program. The draw function will be called repeatedly. OpenFrameworks also has an update function, which can be used to update non-graphics values, such as positions, etc.
 
 ## Setup
 
@@ -116,6 +116,8 @@ testMovie.draw(0, 0, 400, 300);
 
 #### [Working in 3D](http://openframeworks.cc/documentation/)
 
+You can also use openFrameworks to create 3D scenes. Some background knowledge of computer graphics is helpful. 
+
 ## Example Apps
 
 There are many examples included with openFrameworks. We've picked out a few interesting ones to go over. 
@@ -139,6 +141,7 @@ Select one of the examples we've gone over and modify it in any way you choose. 
 * [ConnectedWorlds by Design I/O](http://design-io.com/projects/ConnectedWorlds/)
 * [Drawing experiments by Kind](https://thenextweb.com/dd/2012/05/04/amazing-video-drawing-experiments-by-kynd-use-openframeworks-to-create-art/#.tnw_2rnWBh5z)
 * [CSIS Data Chandelier by Sosolimited](https://www.sosolimited.com/work/csis-data-chandelier/)
+* [Anthropocene by Joel Gethin Lewis](http://openframeworks.cc/ofBook/chapters/project_joel.html)
 
 ### Resources 
 * [ofxAddons](http://ofxaddons.com/categories)
