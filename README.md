@@ -23,6 +23,8 @@ Processing (or p5.js) is excellent for quick software prototypes. It's easy to t
 
 Like Processing, openFrameworks has a setup and a draw function. The setup function will be called exactly once, at the beginning of you program. The draw function will be called repeatedly. OpenFrameworks also has an update function, which can be used to update non-graphics values, such as positions, etc.
 
+[Here's](https://stackoverflow.com/questions/5291769/open-framework-v-s-processing) a StackOverflow article that details some of the differences between openFrameworks and Processing.
+
 ## Setup
 
 For this workshop, download a zip of the latest [openFrameworks release](http://openframeworks.cc/download/) (0.9.8). You can also clone the openframeworks repository directly from Github, but the zip file comes with a prebuilt project generator, which can be used to create a new project. 
